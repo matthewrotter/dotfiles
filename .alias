@@ -1,0 +1,15 @@
+alias la="ls -al"
+alias ll="ls -l"
+alias lf="ls -F"
+alias lr="ls -ltr"
+alias vi="/usr/bin/vim"
+alias cd="cd -P"
+
+alias c="clear"
+
+alias ff="~/bin/find.sh"
+alias ffi="~/bin/find_ci.sh"
+
+alias 43="ssh -l mrotter fortythree.com"
+alias chops="ssh -l codechops codechops.com"
+
