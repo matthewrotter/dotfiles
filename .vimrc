@@ -6,10 +6,13 @@ set ul=50
 set exrc " allow directory-based .vimrc
 
 " set noai
-" set autoindent
-set noautoindent
+set autoindent
+" set noautoindent
 " set smartindent
-set nosmartindent
+" set nosmartindent
+" set smarttab
+" set smartindent
+" set cindent
 
 " auto show matched braces
 set showmatch
@@ -28,9 +31,15 @@ set incsearch
 " case insensitive searching
 set ignorecase
 
-" syntax on
+syntax on
 filetype on
 filetype plugin on
 
 set undolevels=200
 
+au FileType xml exe ":silent 1,$!xmllint --format --recover - 2>/dev/null"
+
+" json shite
+map <leader>jt  <Esc>:%!json_xs -f json -t json-pretty<CR>
+autocmd BufNewFile,BufRead *.json set ft=javascript
+autocmd BufNewFile,BufRead *.js set ft=javascript
