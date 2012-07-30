@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="initial-scale=1.0" />
-  <title></title>
-  <link href="" rel="stylesheet" type="text/css" />
-  <script src=""></script>
+  <title>Example</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="lib/underscore-min.js"></script>
+  <script src="lib/sammy-min.js"></script>
 </head>
 <body>
 
