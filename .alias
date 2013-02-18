@@ -1,4 +1,3 @@
-
 alias la="ls -al"
 alias ll="ls -l"
 alias lf="ls -F"
@@ -10,24 +9,3 @@ alias c="clear"
 
 alias ff="~/bin/find.sh"
 alias ffi="~/bin/find_ci.sh"
-
-
-alias spdb3='mysql -u skipspicks -pskipspicks -h mysql.skipspicks.com skipspicks_v3'
-alias spdb2='mysql -u skipspicks -pskipspicks -h mysql.skipspicks.com skipspicks_v2'
-alias spdb=' mysql -u skipspicks -pskipspicks -h mysql.skipspicks.com skipspicks'
-alias 43db=' mysql -u 43db -pf0rtythr33 -h mysql.fortythree.com 43db'
-alias archdb=' mysql -u archinspection -parchinspection -h mysql.archinspection.com archinspectiondb'
-# alias gdb=' mysql -u gdb -pgdatadb -h mysql.chucothedriver.com gdata'
-alias gdb=' mysql -u 43db -pf0rtythr33 -h mysql.fortythree.com gdata_test'
-alias inf="vi ~/etc/.info.txt"
-
-# docroots
-alias gow='cd ~/www/ag.bjerk.org/gowherea/'
-alias msp='cd ~/www/m.skipspicks.com/'
-alias sp='cd ~/www/skipspicks.com/'
-
-alias tiitsh='ssh root@50.57.136.66'
-
-alias awskey="ssh -i ~/.ssh/awskey.pem ec2-user@107.21.241.65"
-alias aws="ssh ec2-user@107.21.241.65"
-
